@@ -12,7 +12,7 @@ if (len(sys.argv) > 1):
     try:
         apikey = os.environ['MACAPIKEY']
         response = requests.get(url,headers={'X-Authentication-Token':apikey},params={'search':{macaddr} })
-        print(response.text)
+        print("Vendor for MAC " + macaddr + " is " + response.text)
     except HTTPError as err:
         print(err.reason," : ",  err.code)
     except KeyError as err:
