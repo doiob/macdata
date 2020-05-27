@@ -1,8 +1,10 @@
-If you have a MAC address of the machine, following are the steps to find it's vendor
+macvendor.py will list the name of the vendor for a given MAC address  
+Following are the steps for execution.  
+
 1. Get your API key from https://macaddress.io   
 2. Set your key in the shell execution environement.  
 e.g in bash 
- export MACAPIKEY='api key from macaddress.io'
+ export MACAPIKEY='api key from macaddress.io'  
 3. Clone the repo  
    git clone https://github.com/doiob/macdata.git   
 3. Run the following command and pass MAC address on the command line   
