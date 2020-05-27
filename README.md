@@ -22,11 +22,13 @@ Permission denied : Add execute permission to the file.
 ---------------
 Build with Docker
 
-1) From local Dockerfile
+- From local Dockerfile
 
-docker build -f Dockerfile . --build-arg  MACAPIKEY=$MACAPIKEY -t macvendor
+docker build -f Dockerfile . --build-arg  MACAPIKEY=$MACAPIKEY -t macvendor  
 
-2) From github   
+Or  
+
+- From github   
 docker build https://github.com/doiob/macdata.git  --build-arg  MACAPIKEY=$MACAPIKEY -t macvendor
 
 Run the command
