@@ -3,7 +3,7 @@
 e.g for bash 
  export MACAPIKEY='api key from macaddress.io'
 3. Run the following command, pass MAC address on command line   
-  macvendor.py MAC &lt; address &gt;
+  macvendor.py  &lt; Mac address &gt;
 
 Common errors
 
