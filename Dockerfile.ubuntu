@@ -1,0 +1,5 @@
+FROM ubuntu
+ARG MACAPIKEY
+ENV MACAPIKEY=$MACAPIKEY
+RUN apt-get update && apt-get install -y curl
+ENTRYPOINT curl -s -X GET -G https://api.macaddress.io/v1 -d apiKey=${MACAPIKEY} -d output=vendor -d  search=$0;echo
