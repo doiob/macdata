@@ -3,7 +3,7 @@
 e.g for bash 
  export MACAPIKEY='api key from macaddress.io'
 3. Run the following command, pass MAC address on command line   
- macvendor.py <MAC address>
+  macvendor.py MAC &lt; address &gt;
 
 Common errors
 
@@ -21,7 +21,7 @@ Build with Docker
 
 docker build -f Dockerfile . --build-arg  MACAPIKEY=$MACAPIKEY -t macvendor
 
-2) From github 
+2) From github   
 docker build https://github.com/doiob/macdata.git  --build-arg  MACAPIKEY=$MACAPIKEY -t macvendor
 
 Run the command
