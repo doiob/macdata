@@ -1,8 +1,8 @@
-Get your API key from https://macaddress.io 
-Set your key in the shell execution environement. 
+1. Get your API key from https://macaddress.io   
+2. Set your key in the shell execution environement.  
 e.g for bash 
  export MACAPIKEY='api key from macaddress.io'
-Run the following command 
+3. Run the following command, pass MAC address on command line   
  macvendor.py <MAC address>
 
 Common errors
@@ -10,7 +10,8 @@ Common errors
 Command not found : Add current directory to path or execute with ./  
 Permission denied : Add execute permission to file.  
  chmod +x macvendor.py  
- or execute with python interpreter  
+ Or  
+ execute with python interpreter  
  python macvendor.py 44:38:39:ff:ef:57 
 
 ---------------
